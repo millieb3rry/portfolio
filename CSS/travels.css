@@ -1,0 +1,118 @@
+* {
+    margin: 2px;
+}
+
+#imagecontainer {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    overflow: scroll;
+}
+
+.container {
+    min-width: 200px;
+    width: 200px; 
+    height: 200px;
+    overflow: hidden; 
+  }
+
+  #imagecontainer .container:nth-child(1) .image {
+    background-image: url('/Images/airport.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(2) .image {
+    background-image: url('/Images/camerajules.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(3) .image {
+    background-image: url('/Images/icecoffeedate.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(4) .image {
+    background-image: url('/Images/iconsiam.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(5) .image {
+    background-image: url('/Images/juleswithsnakes.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(6) .image  {
+    background-image: url('/Images/krabisunset.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(7) .image {
+    background-image: url('/Images/laughingonmoped.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(8) .image {
+    background-image: url('/Images/millieinstreet.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(9) .image {
+    background-image: url('/Images/milliewithstawberry.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(10) .image {
+    background-image: url('/Images/mopedselfie.jpg');
+  }
+
+  #imagecontainer .container:nth-child(11) .image {
+    background-image: url('/Images/mountainselfie.jpg');
+  }
+  
+  #imagecontainer .container:nth-child(12) .image {
+    background-image: url('/Images/passports.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(13) .image {
+    background-image: url('/Images/pictureonplane.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(14) .image {
+    background-image: url('/Images/smoothiebowl.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(15) .image {
+    background-image: url('/Images/watermelon.jpeg');
+  }
+  
+  #imagecontainer .container:nth-child(16) .image {
+    background-image: url('/Images/wideshotbeach.jpeg');
+  }
+
+  #imagecontainer .container:nth-child(17) .image {
+    background-image: url('/Images/windsweptmillie.jpeg');
+  }
+  
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 15%;
+    background-position: center;
+  }
+
+/* #heading {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(235, 107, 52);
+    text-align: center;
+    font-size: 4em;
+} */
+
+.sphere {
+    background: radial-gradient(circle at 70px 80px, rgb(52, 183, 235), rgb(38, 126, 189), rgb(2, 63, 150), rgb(0, 23, 44), rgb(0, 0, 4) );
+    width: 200px;
+    height: 200px; 
+    border: 0px;
+    border-radius: 50%;
+    position: absolute;
+    left: 500px;
+    top: 600px;
+    filter: drop-shadow(3px 3px 200px rgb(3, 211, 166));
+    box-shadow: 151px 100px 37px 10px rgb(0, 0, 0, 0.5);
+}
+
+
+
